@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8"
+        crossorigin="anonymous"></script>
+
+    <title>Cursos | São Miguel dos Campos</title>
+    <link rel="stylesheet" href="./styles/style.css">
+</head>
+
+<body>
+    <nav>
+        <a href="/" class="brand">
+            <!-- <img src="./images/logo.svg" alt="logo"> -->
+            <img src="./images/logo-header.png" alt="logo">
+        </a>
+        <a href="#" class="ham">
+            <img src="./images/icon-menu.svg" alt="open menu">
+        </a>
+
+        <div class="nav-ul">
+
+            <div class="dropdown">
+                <div class="nav-btns">
+                    <a href="./index.html"><button>Início</button></a>
+                    <button><a href="./inscrevaSe.html">Inscreva-se</a></button>
+                </div>
+            </div>
+        </div>
+        </div>
+    </nav>
+
+    <!-- ################################### FIM DO CABEÇALHO ######################################## -->
+    <center>
+        <div class="hero2">
+            <div class="hero-text2">
+                <h1 style="color: #67b569;"> UMA CIDADE FUTURO<br /></h1>
+                <h1 style="font-size: 60px;color: #b1cb3b;">PRIORIZA A EDUCAÇÃO</h1>
+                <p class="textin" style="font-size:22px;font-family:Avenir;color: #67b569;;">
+                    A prefeitura da cidade de São Miguel dos Campos, juntamente a seus parceiros educacionais, com o
+                    objetivo de capacitar e qualificar a população, oferece cursos gratuitos de qualificação
+                    profissional em diversas áreas.
+                </p>
+                <h2>
+                    </h1>
+                    <div class="cursos" style="padding-top: 20px;">
+                        <!-- <img src="./images/sedecti1.jpg" width="350" height="350" style="padding-right: 7px;"> -->
+                        <img src="./images/soldador.jpeg" width="410" height="320" style="padding-right: 7px;">
+                        <img src="./images/turma.jpeg" width="430" height="320" style="padding-right: 7px;">
+                        <img src="./images/george.jpeg" width="420" height="320" style="padding-right: 7px;">
+                        <!-- <img src="./images/sedecti2.jpg" width="350" height="350" style="padding-right: 7px;"> -->
+                        <!-- <img src="./images/sedecti3.jpg" width="350" height="350"> -->
+                        </p>
+                        <h1 style="color: #67b569;font-size: 40px;margin-bottom: -40px;margin-top: 40px;">
+                            PARCEIROS:<br /></h1>
+                        <div class="logos" style="padding-bottom: 40px;">
+                            <img src="./images/oxetech.png" width="103" height="43">
+                            <img src="./images/senai2.png" width="113" height="47">
+                            <img src="./images/sebrae.png" width="95" height="47">
+                            <img src="./images/goval.svg" width="113" height="80">
+                            <img src="./images/logo-header.png" width="180" height="55">
+                            <img src="./images/ifallogo.png" width="150" height="50">
+
+
+                        </div>
+                    </div>
+    </center>
+    <!-- <div class="img-container">
+      <img src="./images/image-hero-desktop.png" id="hero-img">
+    </div> -->
+    </div>
+    <script>
+        const ham = document.querySelector('.ham')
+
+        ham.addEventListener('click', e => {
+            document.querySelector('.mobile-nav').classList.add('show')
+            document.querySelector('.overlay').style.display = 'block'
+            document.querySelector('body').classList.add('lock')
+        })
+        document.querySelector('#close-Menu').addEventListener('click', e => {
+            document.querySelector('.mobile-nav').classList.remove('show')
+            document.querySelector('.overlay').style.display = 'none'
+            document.querySelector('body').classList.remove('lock')
+        })
+    </script>
+
+</body>
+<footer class="text-center text-lg-start bg-light text-muted">
+    <div class="text-center p-4" style="background-color: rgba(0, 0, 0, 0.05);padding-top: 20px;">
+        © 2022 Desenvolvido por:
+        <a class="text-reset fw-bold" href="https://mdbootstrap.com/">Ghedyvan Vinícius</a>
+    </div>
+</footer>
+
+</html>
