@@ -122,6 +122,11 @@ h1 {
     transition: all 1s;
 }
 
+.section-inscricao {
+    padding-left: 15%;
+    padding-right: 15%;
+}
+
 .dropdown {
     position: relative;
     display: inline-block;

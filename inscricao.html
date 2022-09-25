@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8"
+        crossorigin="anonymous"></script>
+
+    <title>Inscreva-se | Cursos</title>
+    <link rel="stylesheet" href="./styles/style.css">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <a href="/" class="brand">
+                <img src="./images/logo-header.png" alt="logo">
+            </a>
+            <a href="#" class="ham">
+                <img src="./images/icon-menu.svg" alt="open menu">
+            </a>
+
+            <div class="nav-ul">
+
+                <div class="dropdown">
+                    <div class="nav-btns">
+                        <a href="https://www.google.com"><button>Ajuda</button></a>
+                        <button><a href="inscrevaSe.html">Inscreva-se</a></button>
+                    </div>
+                </div>
+            </div>
+            </div>
+        </nav>
+        <center> <div class="hero2">
+            <div class="hero-text2">
+                <h1 style="color: #67b569;font-size: 50px; padding-top: 20px; padding-bottom: 5%;">FORMULÁRIO DE INSCRIÇÃO</h1>
+            </div>
+        </div>
+    </center>
+       
+    </header>
+    <section class="section-inscricao">
+        <form class="row g-3">
+            <div class="col-md-6">
+                <label for="inputName" class="form-label">Nome e sobrenome</label>
+                <input type="text" class="form-control" id="inputName">
+            </div>
+            
+            <div class="col-md-6">
+                <label for="inputMail4" class="form-label">Email</label>
+                <input type="mail" class="form-control" id="inputMail4">
+            </div>
+            <div class="col-md-6">
+                <label for="inputCurso" class="form-label">Curso de interesse</label>
+                <select id="inputCity" class="form-select">
+                    <option selected>Escolha...</option>
+                    <option>Atendimento ao cliente</option>
+                    <option>Costureiro industrial</option>
+                    <option>Desenvolvedor mobile</option>
+                    <option>Introdução a libras</option>
+                    <option>Programador WEB</option>
+                    <option>Soldador industrial</option>
+                    <option>Apenas ser notificado sobre novas oportunidades de cursos</option>
+                </select>
+            </div>
+            <div class="col-md-6">
+                <label for="inputNumber" class="form-label">Celular</label>
+                <input type="tel" class="form-control" id="inputNumber" placeholder="82 9 99999999">
+            </div>
+            <div class="col-12">
+                <label for="inputAddress" class="form-label">Bairro</label>
+                <input type="text" class="form-control" id="inputAddress">
+            </div>
+            <div class="col-12">
+                <label for="inputAddress2" class="form-label">Endereço</label>
+                <input type="text" class="form-control" id="inputAddress2" placeholder="Rua, número">
+            </div>
+            <div class="col-md-6">
+                <label for="inputCity" class="form-label">Cidade</label>
+                <select id="inputCity" class="form-select">
+                    <option selected>Escolha...</option>
+                    <option>São Miguel dos Campos</option>
+                    <option>Outra</option>
+                </select>
+            </div>
+            <div class="col-md-4">
+                <label for="inputState" class="form-label">Estado</label>
+                <select id="inputState" class="form-select">
+                    <option selected>Escolha...</option>
+                    <option>Alagoas</option>
+                    <option>Outro</option>
+                </select>
+            </div>
+            <div class="col-md-2">
+                <label for="inputCep" class="form-label">CEP</label>
+                <input type="text" class="form-control" id="inputCep" placeholder="Somente números">
+            </div>
+            <div class="col-12">
+                <div class="form-check">
+                    <input class="form-check-input" type="checkbox" id="gridCheck">
+                    <label class="form-check-label" for="gridCheck">
+                        Aceito receber emails sobre novas oportunidades de cursos.
+                    </label>
+                </div>
+            </div>
+            <div class="col-12">
+                <button type="submit" class="btn btn-primary" style="background-color: #b1cb3b; color: black; border: 0ch;"><a href="feito.html">Enviar</a></button>
+            </div>
+        </form>
+    </section>
+    <footer class="text-center text-lg-start bg-light text-muted" style="margin-top: 5%;">
+        <div class="text-center p-4" style="background-color: rgba(0, 0, 0, 0.05);padding-top: 20px;">
+            © 2022 Desenvolvido por:
+            <a class="text-reset fw-bold" href="https://mdbootstrap.com/">Ghedyvan Vinícius</a>
+        </div>
+    </footer>
+
+
+</body>
+
+</html>
