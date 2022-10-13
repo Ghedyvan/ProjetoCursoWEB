@@ -10,6 +10,13 @@
     src: url(/styles/Metropolis-Medium.otf);
 }
 
+.uiuiui {
+    display: inline-block;
+    vertical-align: top;
+    /* margin: 0 auto; */
+    margin-left: 10%;
+    border-radius: 60%;
+}
 
 body {
     margin: 0;
@@ -178,6 +185,15 @@ footer{
     }
 }
 .textin{
+    margin-top: 30px;
+    margin-left: 15%;
+    margin-right: 0%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.textin2{
     margin-top: 30px;
     margin-left: 15%;
     margin-right: 15%;
